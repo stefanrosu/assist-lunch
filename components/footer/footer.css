@@ -1,0 +1,11 @@
+.footer{
+	color: #3E676C;
+	background-color: #392537;
+	text-align: center;
+	padding: 10px;
+
+}
+li{
+	display:inline;
+	padding: 25px;
+}
