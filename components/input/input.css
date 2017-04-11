@@ -1,11 +1,36 @@
-label{
-	font-size: 16px;
+.input{
+
+}
+
+.input-label{
+	font-size: 13px;
 	color: black;
 	text-transform: uppercase;
+	color:#000;
+	margin-bottom: 10px;
+	display: block;
+	padding-top: 15px;
+	font-weight: 700;
+
+
 }
-input{
+.input-field{
 	width: 568px;
-	height: 39px;
 	font-size: 14px;
-	padding-left: 12px;
+	padding: 10px;
+	color:black;
+	display: block;
+}
+
+.input ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: black;
+}
+.input ::-moz-placeholder { /* Firefox 19+ */
+  color: pink;
+}
+.input :-ms-input-placeholder { /* IE 10+ */
+  color: pink;
+}
+.input :-moz-placeholder { /* Firefox 18- */
+  color: pink;
 }

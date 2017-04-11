@@ -1,11 +1,22 @@
-.menu{
-	color: #3E676C;
-	background-color: #392537;
+.navigation{
+	color: #47A6A0;
+	background-color: #4D394B;
 	text-align: center;
-	padding: 10px;
+	padding: 5px;
+	width:100%;
 }
-li{
+
+.menu-item{
 	
 	display:inline;
 	padding: 25px;
+	text-transform: uppercase;
+	font-size: 12px;
+	cursor: pointer;
+	font-weight: 700;
+
+}
+
+.menu-item:hover{
+	color: white;
 }
