@@ -1,0 +1,27 @@
+.container {
+	width: 100%;
+    padding: 0px 50px 0px 50px;
+}
+
+.container:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+.left-side {
+	width: 40%;
+	float: left;
+}
+
+.right-side {
+	width: 60%;
+	float: right;
+	padding-left: 20px;
+}
+
+.menu-list {
+	width: 100%;
+	max-width: 100%;
+}

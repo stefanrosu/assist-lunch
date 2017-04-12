@@ -1,9 +1,15 @@
-.input{
+.input {
+	margin-bottom: 15px;
+}
 
+.input:after{
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .input-label{
-	font-size: 13px;
+	font-size: 14px;
 	color: black;
 	text-transform: uppercase;
 	color:#000;
@@ -15,12 +21,14 @@
 
 }
 .input-field{
-	width: 568px;
 	font-size: 14px;
 	padding: 10px;
 	color:black;
 	display: block;
+	width: 100%
 }
+
+
 
 .input ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
   color: black;
@@ -34,3 +42,18 @@
 .input :-moz-placeholder { /* Firefox 18- */
   color: pink;
 }
+
+
+/* INPUTE INLNIE */
+
+.input-inline .input-label{
+	float: left;
+	width: 20%
+}
+
+.input-inline .input-field{
+	float: left;
+	width: 79%;
+	margin-left: 1%;
+}
+
