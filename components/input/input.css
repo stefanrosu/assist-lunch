@@ -44,7 +44,7 @@
 }
 
 
-/* INPUTE INLNIE */
+/* INPUTE INLNIE REGISTRATION PAGE*/
 
 .input-inline .input-label{
 	float: left;
@@ -56,4 +56,18 @@
 	width: 79%;
 	margin-left: 1%;
 }
-
+/*PROFILE PAGE*/
+.input-left{
+    width: 50%;
+    float: left;
+    padding-right: 30px;
+}
+.input-right{
+    width: 50%;
+    float: right;
+    padding-left: 10px;
+}
+.input-down{
+    width: 100%;
+    float: left;
+}

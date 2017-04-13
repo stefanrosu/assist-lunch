@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<meta charset="utf-8">
 <link rel="stylesheet" type="text/css" href="../normalize.css">
 <link rel="stylesheet" type="text/css" href="../button/button.css">
 <link rel="stylesheet" type="text/css" href="../reset.css">
@@ -11,9 +12,91 @@
 <link rel="stylesheet" type="text/css" href="../panel-title/panel-title.css">
 <link rel="stylesheet" type="text/css" href="../table/table.css">
 <head>
-	<title></title>
+	<title>Order</title>
+	<nav class="navigation">
+	<img class="logo" src="http://placehold.it/200x50">
+	<ul>
+		<li class="menu-item">Menus</li>
+		<li class="menu-item">Add menu</li>
+		<li class="menu-item">Edit menu</li>
+		<li class="menu-item">Order</li>
+		<li class="menu-item">Profile</li>
+		<LI class="menu-item">About</LI>
+		<LI class="menu-item">Logout</LI>
+	</ul>
+</nav>
 </head>
 <body>
-
+<div class="container">
+	<div class="panel left-side">
+		<h3 class="panel-title">Select a menu</h3>
+		<div class="input">
+			<label class="input-label">Menu</label>
+			<select type="text" name="input" class="input-field">
+			<option>Meniu 1(Felul1/Felul2/Desert)</option>
+			<option>Meniu 1(Felul1/Felul2)</option>
+			</select>
+		</div>	
+		<button class="button">Make order</button>	
+	</div>
+	<div class="right-side">
+		<div class="panel menu-list">
+			<h3 class="panel-title">Menus</h3>
+			<table>
+		  <thead>
+		    <tr>
+		      <th>Data</th>
+		      <th>Title</th>
+		      <th id="text-right">Action</th>
+		    </tr>
+		  </thead>
+		  <tbody>
+		  <tr>
+		    <td>01.07.2016</td>
+		    <td>LOrem Ipsym</td>
+		    <td><button class="button-show">Show</button></td>
+		  </tr>
+		  	<tr>
+		    <td>01.07.2016</td>
+		    <td>LOrem Ipsym</td>
+		    <td><button class="button-show">Show</button></td>
+		  </tr>
+		  <tr>
+		    <td>01.07.2016</td>
+		    <td>LOrem Ipsym</td>
+		    <td><button class="button-show">Show</button></td>
+		  </tr><tr>
+		    <td>01.07.2016</td>
+		    <td>LOrem Ipsym</td>
+		    <td><button class="button-show">Show</button></td>
+		  </tr><tr>
+		    <td>01.07.2016</td>
+		    <td>LOrem Ipsym</td>
+		    <td><button class="button-show">Show</button></td>
+		  </tr>
+		  <tr>
+		    <td>01.07.2016</td>
+		    <td>LOrem Ipsym</td>
+		    <td><button class="button-show">Show</button></td>
+		  </tr>
+		  <tr>
+		    <td>01.07.2016</td>
+		    <td>LOrem Ipsym</td>
+		    <td><button class="button-show">Show</button></td>
+		  </tr>
+		  </tr>
+		  </tbody>
+		</table>
+		</div>
+	</div>
+</div>
 </body>
+<footer class="footer">
+	<ul>
+		<li>About</li>
+		<li>Profile</li>
+		<li>Order</li>
+	</ul>
+	<p id="footer-rights">©Assist software 1992-2016. All rights reserved.</p>
+</footer>
 </html>

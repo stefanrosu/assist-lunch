@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<meta charset="utf-8">
 <link rel="stylesheet" type="text/css" href="../normalize.css">
 <link rel="stylesheet" type="text/css" href="../button/button.css">
 <link rel="stylesheet" type="text/css" href="../reset.css">
@@ -11,9 +12,58 @@
 <link rel="stylesheet" type="text/css" href="../panel-title/panel-title.css">
 <link rel="stylesheet" type="text/css" href="../table/table.css">
 <head>
-	<title></title>
+	<title>Profile</title>
+	<nav class="navigation">
+	<img class="logo" src="http://placehold.it/200x50">
+	<ul>
+		<li class="menu-item">Menus</li>
+		<li class="menu-item">Add menu</li>
+		<li class="menu-item">Edit menu</li>
+		<li class="menu-item">Order</li>
+		<li class="menu-item">Profile</li>
+		<LI class="menu-item">About</LI>
+		<LI class="menu-item">Logout</LI>
+	</ul>
+</nav>
 </head>
 <body>
-
+<div class="panel-profile">
+	<h3 class="panel-title">profile edit</h3>
+	<div class="input-left">
+		<div class="input">
+			<label class="input-label">First name</label>
+			<input type="text" name="input" class="input-field" placeholder="user@mail.com">
+		</div>
+		<div class="input">
+			<label class="input-label">Last name</label>
+			<input type="text" name="input" class="input-field">
+		</div>
+	</div>
+	<div class="input-right">
+		<div class="input">
+			<label class="input-label">Email</label>
+			<input type="text" name="input" class="input-field" placeholder="user@mail.com">
+		</div>
+		<div class="input">
+			<label class="input-label">Phone</label>
+			<input type="text" name="input" class="input-field">
+		</div>
+	</div>
+	<div class="input-down">
+		<div class="input">
+			<label class="input-label">Address</label>
+			<input type="text" name="input" class="input-field">
+		</div>
+		<button class="button button-update">Update</button>	
+	</div>
+</div>
 </body>
+<footer class="footer">
+	<ul>
+		<li>About</li>
+		<li>Profile</li>
+		<li>Order</li>
+	</ul>
+	<p id="footer-rights">©Assist software 1992-2016. All rights reserved.</p>
+</footer>
 </html>

@@ -3,10 +3,10 @@
 	background-color: #4D394B;
 	box-shadow: 0px 1px 15px 0px #DDD;
 	padding: 15px 20px;
-	
 	width: 100%;
 	margin-top: 17px;
 	cursor: pointer;
+
 }
 .button:hover{
 	color: white;
@@ -15,8 +15,30 @@
 	color: #46B3AA;
 	background-color: #4D394B;
 	box-shadow: 0px 1px 15px 0px #DDD;
-	padding: 5px 17px;
+	padding: 6px 15px;
 	max-width: 570px;
 	cursor: pointer;
 	margin:3px;
+	float: right;
+}
+#button-edit-menu{
+	color: #46B3AA;
+	background-color: #4D394B;
+	box-shadow: 0px 1px 15px 0px #DDD;
+	padding: 15px 20px;
+	width: 100%;
+	cursor: pointer;
+	margin: 6px 0 35px 0;
+
+}
+/* Pofile update button*/
+.button-update{
+	color: #46B3AA;
+	background-color: #4D394B;
+	box-shadow: 0px 1px 15px 0px #DDD;
+	padding: 15px 20px;
+	width: 100%;
+	cursor: pointer;
+	margin-top: 5px;
+
 }
